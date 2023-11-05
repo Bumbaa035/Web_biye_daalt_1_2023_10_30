@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First page</title>
+    <style>
+        
+        @media (min-width:768px){
+            .container{
+                width:750px
+            }
+        }
+        @media (min-width:992px){
+            .container{
+                width:970px
+            }
+        }
+        @media (min-width:1200px){
+            .container{
+                width:1170px
+            }
+        
+        }
+
+        @media (min-width: 1200px){
+            .col-lg-3 {
+                width: 25%;
+            }
+        }
+        
+        @media (min-width: 1200px){
+            .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+            float: left;
+        }
+        }
+        
+        @media (min-width: 992px){
+            .col-md-3 {
+            width: 25%;
+        }
+        }
+        
+        @media (min-width: 992px){
+            .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+            float: left;
+        }
+        }
+        
+        @media (min-width: 768px){
+            .col-sm-4 {
+            width: 33.3333333333%;
+        }
+        }
+        
+        @media (min-width: 768px){
+            .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+            float: left;
+        }
+        }
+        
+
+
+
+
+
+
+        @media only screen and (max-width:1028px){
+            .navBtn{
+                display:block
+            }
+            .navigation-container{
+                height:10px
+            }
+            .navigation-container .container,.navigation-container .navigation{
+                display:none
+            }
+            .header-container .filter-section .search-section input[type=text]{
+                width:250px
+            }
+            .order-section .basket-list .product-row .img-container{
+                max-width:140px
+            }
+            .order-section .basket-list .product-row .name,.order-section .basket-list .product-row .price{
+                margin-left:15px;
+                margin-right:15px
+            }
+            .pageBody .product-list .col-md-4:nth-child(3n+1),.pageBody .search-result .col-md-3:nth-child(4n+1){
+                clear:left
+            }
+        }
+        @media only screen and (max-width:768px){
+            .header-container .filter-section .search-section input[type=text]{
+                width:150px
+            }
+            .module .module-content .last-one{
+                display:none
+            }
+            .pageBody .search-result .col-sm-4:nth-child(3n+1){
+                clear:left
+            }
+            .pageBody .search-result .col-md-3:nth-child(4n+1){
+                clear:none
+            }
+            .pageBody .product-list .col-sm-4:nth-child(3n+1){
+                clear:left
+            }
+            .pageBody .sidebar{
+                display:none
+            }
+            .pageBody .lesson_sidebar{
+                display:block
+            }
+            .pageBody .lesson_sidebar ul{
+                background:#f1f1f1;
+                border:0;
+                margin-bottom:30px;
+                padding:20px 0;
+                text-align:center
+            }
+            .pageBody .lesson_sidebar ul li{
+                border:0;
+                display:inline-block
+            }
+            .order-section .next_col{
+                padding-top:30px
+            }
+            .profile-section .my-lesson .lesson-list .each-lesson .status{
+                text-align:center
+            }
+            .profile-section .my-lesson .lesson-list .each-lesson ul{
+                float:none!important;
+                padding-top:10px!important
+            }
+        }
+        @media only screen and (max-width:480px){
+            .header-container .top .social,.header-container .top .text{
+                display:block;
+                text-align:center
+            }
+            .header-container .top .text{
+                border-left:0;
+                padding:0
+            }
+            .header-container .top .client-nav{
+                float:none!important;
+                padding:10px;
+                text-align:center
+            }
+            .header-container .filter-section{
+                padding:5px 0 10px
+            }
+            .header-container .filter-section .search-section{
+                padding-bottom:20px;
+                padding-top:10px
+            }
+            .header-container .filter-section .search-section input[type=text]{
+                width:300px
+            }
+            .module .module-content{
+                padding:0 30px
+            }
+            .module .module-content .last-one{
+                display:block
+            }
+            .module .module-content .each-product{
+                margin-bottom:30px
+            }
+            footer .flogo{
+                display:block;
+                margin:auto;
+                max-width:150px;
+                text-align:center
+            }
+            footer .links{
+                margin:20px 0;
+                text-align:center
+            }
+            footer .rt_content{
+                float:none!important;
+                text-align:center
+            }
+            .pageBody .product-list{
+                padding:0 30px
+            }
+            .pageBody .product-list .each-product{
+                border:none
+            }
+            .static-image{
+                display:none
+            }
+            .single-product .maininfo{
+                padding-top:30px
+            }
+            .related .title_wrapper .title{
+                font-size:14px;
+                font-weight:600
+            }
+            .profile-section .left-sidebar ul li:last-child a{
+                border-bottom:1px solid #f3f3f3
+            }
+            .profile-section .my-lesson .lesson-list .each-lesson{
+                margin-bottom:20px
+            }
+            .steps-container .action-container .steps-count{
+                padding-left:0
+            }
+            .steps-container .action-container .buttons button{
+                margin-bottom:4px
+            }
+            .steps-container .each-step{
+                padding:20px 40px
+            }
+            .order-section .basket-list .product-row .img-container{
+                display:none
+            }
+            .order-section .basket-list .product-row .name{
+                margin-left:0;
+                margin-right:8px;
+                max-width:100px;
+                min-width:100px
+            }
+            .order-section .basket-list .product-row .price,.order-section .basket-list .product-row .remove_btn{
+                margin-left:8px;
+                margin-right:8px
+            }
+            .confirmation-section{
+                text-align:center
+            }
+            .confirmation-section .qr-code-section{
+                margin-bottom:30px
+            }
+            .confirmation-section .qr-code-section .qr-code{
+                text-align:center
+            }
+            .confirmation-section .qr-code-section .qr-code img{
+                display:inline-block
+            }
+            .pageBody .each-lesson .media-section iframe{
+                height:270px!important
+            }
+            .pageBody .each-lesson .media-section .owrapper{
+                margin:auto;
+                width:auto
+            }
+            .pageBody .each-lesson .steps-section .each-step .each-step-media{
+                max-width:100%
+            }
+            .pageBody .each-lesson .steps-section .each-step .each-step-media .owrapper{
+                margin:auto;
+                width:auto
+            }
+        }
+        @media only screen and (max-width:360px){
+            .header-container .filter-section .search-section input[type=text]{
+                width:270px
+            }
+            .header-container .filter-section .contact-information .phone{
+                margin-left:10px
+            }
+        }
+        @media only screen and (max-width:320px){
+            .header-container .filter-section .search-section input[type=text]{
+                width:250px
+            }
+            .header-container .filter-section .contact-information{
+                padding-top:15px
+            }
+            .header-container .filter-section .contact-information .email,.header-container .filter-section .contact-information .phone{
+                font-size:12px;
+                padding-left:20px
+            }
+        }
+
+
+
+
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            list-style:none;
+            position: relative;
+        }
+        .clr{
+            clear: both;
+        }
+        body, html {
+            height: 100%;
+        }
+        body {
+            background-color: #fff;
+            color: #3b3b3b;
+            font-family: Ubuntu,sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0px;
+
+        }
+        html{
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            font-size: 10px;
+            display: block;
+            -webkit-text-size-adjust: 100%;
+        }
+        div {
+            display: block;
+        }
+        .header-container{
+            display: block;
+            position: relative;
+
+        }
+        .top {
+            background: #97c024;
+            color: #fff;
+            display: block;
+            font-size: 12px;
+            padding: 5px 0;
+            overflow: hidden;
+        }
+        .container{
+            display: table;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .row{
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+        .social {
+            display: inline-block;
+            font-size: 0;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+        .youtube{
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            font-family: Ubuntu,sans-serif;
+            line-height: 1.6;
+            list-style: none;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            font-size: 12px;
+            height: 18px;
+            margin-right: 8px;
+            text-indent: 9999px;
+            width: 18px;
+            background: url(./img/youtube.png) no-repeat 50%;
+        }
+        .twitter{
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            font-family: Ubuntu,sans-serif;
+            line-height: 1.6;
+            list-style: none;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            font-size: 12px;
+            height: 18px;
+            margin-right: 8px;
+            text-indent: 9999px;
+            width: 18px;
+            background: url(./img/twitter.png) no-repeat 50%;
+        }
+        .facebook{
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            font-family: Ubuntu,sans-serif;
+            line-height: 1.6;
+            list-style: none;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            font-size: 12px;
+            height: 18px;
+            margin-right: 8px;
+            text-indent: 9999px;
+            width: 18px;
+            background: url(./img/facebook.png) no-repeat 50%;
+        }
+        .float-left{
+            float: left;
+        }
+        .text {
+            border-left: 1px solid #fafafa;
+            display: inline-block;
+            padding-left: 15px;
+        }
+        .header-container .top .social li {
+            display: inline-block;
+            overflow: hidden;
+        }
+        .client-nav {
+            display: block;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .pull-right {
+            float: right!important;
+        }
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
+        .login {
+            border: 1px solid #fff;
+            border-radius: 5px;
+            color: #fff;
+            display: block;
+            font-size: 12px;
+            line-height: 12px;
+            padding: 4px 8px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: .3s;
+        }
+        .basket {
+            background: url(./img/basket.png) no-repeat 14px;
+            border-left: 1px solid #fff;
+            color: #fff;
+            display: block;
+            margin-left: 14px;
+            min-width: 40px;
+            padding-left: 14px;
+            text-decoration: none;
+        }
+        .basket span {
+            display: inline-block;
+            font-size: 14px;
+            padding-left: 25px;
+        }
+        .col-xs-12 {
+            width: 100%;
+            float: left;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+            position: relative;
+        }
+        .col-xs-12 li{
+            display: block;
+        }
+        .filter-section {
+            display: block;
+            min-height: 100%;
+            padding: 25px 0;
+            position: relative;
+        }
+        .search-section {
+            display: block;
+            overflow: hidden;
+            padding-top: 30px;
+        }
+        .search-section input[type=text] {
+            border: 1px solid #3b3b3b;
+            color: #3b3b3b;
+            display: inline-block;
+            font-size: 13px;
+            line-height: 14px;
+            padding: 8px 10px;
+            transition: .3s;
+            width: 150px;
+        }
+        .search-section button[type=submit] {
+            background: #fff;
+            background: url(./img/search.png) no-repeat 50%;
+            border: 1px solid #3b3b3b;
+            display: inline-block;
+            line-height: 0;
+            line-height: 14px;
+            padding: 8px 14px;
+            text-indent: -9999px;
+        }
+        .filter-section .logo {
+            display: block;
+            position: relative;
+            width: 100%;
+        }
+        .img-responsive {
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+        .filter-section .contact-information {
+            display: block;
+            text-align: right;
+        }
+        .header-container .filter-section .contact-information .email {
+            background: url(./img/mail.png) 0 no-repeat;
+            color: #3b3b3b;
+            display: inline-block;
+            font-size: 13px;
+            padding-left: 25px;
+            text-decoration: none;
+        }
+        .header-container .filter-section .contact-information .phone {
+            background: url(./img/phone.png) 0 no-repeat;
+            color: #3b3b3b;
+            display: inline-block;
+            font-size: 13px;
+            margin-left: 40px;
+            padding-left: 25px;
+            text-decoration: none;
+        }
+        .topBtns {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .topBtns .pcb-order-btn {
+            background: #e30b5d;
+            border-radius: 10px;
+            color: #fff;
+            display: inline-block;
+            font-size: 11px;
+            margin-top: 10px;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            transition: .5s;
+        }
+        .topBtns .feedback-btn {
+            border: 1px solid rgba(0,0,0,.5);
+            border-radius: 10px;
+            color: rgba(0,0,0,.8);
+            display: inline-block;
+            font-size: 11px;
+            margin-top: 10px;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            transition: .3s;
+        }
+
+
+        
+        .navigation-container {
+            background: #3b3b3b;
+            color: #fff;
+            display: block;
+        }
+        .navigation {
+            display: block;
+            font-size: 0;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .navigation-container .navigation li {
+            display: inline-block;
+            font-size: 0;
+            position: relative;
+            transition: .3s;
+        }
+        .navigation-container .navigation li a {
+            color: #fff;
+            display: block;
+            font-size: 12px;
+            padding: 15px 12px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: .3s;
+        }
+        .navigation-container .navigation li ul {
+            background: #3b3b3b;
+            display: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            transition: all .25s ease;
+            visibility: hidden;
+            z-index: 99999999;
+        }
+        
+        .navigation-container .navigation li:last-child{
+            float:right;
+        }
+        .navigation-container .navigation li:last-child a{
+            background:#97c024;
+        }
+
+        .navigation-container .navigation li ul li:last-child{
+            float:left;
+        }
+        .navigation-container .navigation li ul li:last-child a{
+            background:#97c024;
+        }
+        .navigation-container .navigation li ul li:last-child a{
+            background:#484848;
+            background:#97c024;
+        }
+
+
+        .navigation-container .navigation li ul li{
+            display:block;
+        }
+        .navigation-container .navigation li a.dropdown:after{
+            content:" ►";
+            font-size:8px;
+            line-height:14px;
+        }
+        .navigation-container .navigation li a:hover{
+            background:#484848;
+            background:#97c024;
+        }
+        .navigation-container .navigation li a.dropdown:hover:after{
+            content:" ►";
+        }
+        .navigation-container .navigation li ul li a:hover{
+            background:#4f4f4f;
+        }
+        .navigation-container .navigation li:hover a{
+            background:#484848;
+            background:#97c024;
+        }
+        .navigation-container .navigation li:hover a.dropdown:after{
+            content:" ▼";
+            font-size:8px;
+            line-height:14px;
+        }
+        .navigation-container .navigation li:hover ul{
+            background:#555;
+            display:block;
+            opacity:1;
+            visibility:visible;
+        }
+        .navBtn,.navBtn:focus,.navBtn:hover,.sidenav{
+            color:#fff;
+        }
+        .owl-carousel.owl-loaded {
+            display: block;
+        }
+        .owl-carousel {
+            -webkit-tap-highlight-color: transparent;
+            display: none;
+            position: relative;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .owl-carousel .owl-stage-outer {
+            overflow: hidden;
+            position: relative;
+            -webkit-transform: translateZ(0);
+        }
+        .owl-carousel .owl-stage {
+            -moz-backface-visibility: hidden;
+            position: relative;
+            touch-action: manipulation;
+        }
+
+        .owl-carousel .owl-item img {
+            display: block;
+            width: 100%;
+        }
+        .module {
+            display: block;
+            padding: 50px 0 120px;
+        }
+        .module .module-header {
+            display: block;
+            padding-bottom: 60px;
+            text-align: center;
+        }
+        .module .module-header h3 {
+            color: #3b3b3b;
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .seperator.green {
+            background: #97c024;
+        }
+
+        .seperator {
+            display: block;
+            height: 3px;
+            margin: auto;
+            width: 100px;
+        }
+        .module .module-content {
+            display: block;
+        }
+        .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+            position: relative;
+        }
+        .each-product {
+            border: 1px solid #f5f5f5;
+            display: block;
+            transform: scale(1);
+            transition: .3s ease-in-out;
+        }
+        .module .module-content .each-product h4 {
+            color: #3b3b3b;
+            display: block;
+            font-size: 18px;
+            line-height: 18px;
+            margin-top: 20px;
+            padding: 0 15px;
+            text-align: center;
+        }
+        .module .module-content .each-product .code-price {
+            color: #3b3b3b;
+            display: block;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            padding: 15px;
+        }
+        .module .module-content .each-product .code-price .price {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .pull-right {
+            float: right!important;
+        }
+        .module .module-content .each-product .more {
+            display: block;
+            overflow: hidden;
+            padding: 15px;
+        }
+
+        .module .module-content .each-product .more .basket {
+            background: url(./img/cart.png) no-repeat 50%;
+            border: 1px solid #97c024;
+            border-radius: 5px;
+            color: transparent;
+            display: block;
+        }
+
+        button, input, select, textarea {
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+        }
+        .module .module-content .each-product .more .btn_more {
+            background: #97c024;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            padding: 3px 15px;
+            text-decoration: none;
+        }
+
+        .pull-right {
+            float: right!important;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="top">
+          <div class="container">
+            <div class="row">
+              <div class="float-left">
+                <ul class="social">
+                  <li> <a href="https://www.facebook.com/ezko.elec" class="facebook" target="_blank">facebook</a> </li>
+                  <li> <a href="https://twitter.com/Ezenbold?s=07" class="twitter" target="_blank">twitter</a> </li>
+                  <li> <a href="https://www.youtube.com/user/ezo891106" class="youtube" target="_blank">youtube</a> </li>
+                </ul>
+                <div class="text"> Peace mall дэлгүүр 1 давхар 101 тоот </div>
+                <div class="text"> Хүргэлтийн үйлчилгээ таны цагийг хэмнэнэ </div>
+              </div>
+              <div class="col-xs-12">
+                       
+                <ul class="client-nav pull-right" style="display: flex;">
+                  <li style="padding-right: 10px">
+                    <a href="/newproducts" style="color:white">Бүтээгдэхүүн <span style="color:#e30b5d; font-size: 10px; font-weight:bold;">New</span></a>
+                  </li>
+                              <li style="display: inline;"> <a href="#" style="display: inline;" class="login">Нэвтрэх</a> </li>
+                              <li>
+                    <a href="/client/checkout" class="basket">
+                      <span id="basketProducts">0</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Logo and Filter -->
+        <div class="filter-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <form method="GET" action="/search">
+                  <div class="search-section">
+                    <input type="text" name="val" value="" placeholder="Хайх бүтээгдэхүүний нэрийг бичнэ үү">
+                    <button type="submit">S</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <a href="/" class="logo">
+                  <img src="./img/logo.png" alt="Elec Logo" class="img-responsive" style="margin: auto;">
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="contact-information">
+                  <a href="mailto:electronics@elec.mn" class="email">electronics@elec.mn</a>
+                  <a href="#" class="phone">77372929</a>
+                </div>
+                <div class="topBtns">
+                  <a href="/pcb-order" class="pcb-order-btn">PCB Хавтан Захиалга</a>
+                  <a href="/feedback" class="feedback-btn">Санал хүсэлт</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="navigation-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+                      <ul class="navigation">
+                          <li>
+                  <a href="/category/9" class="dropdown">Электроникийн сэлбэг</a>
+                              <ul>
+                                  <li> <a href="/category/14"> Ардуйно, Raspberry, Модул </a> </li>
+                                  <li> <a href="/category/18"> Мэдрэгч сенсор </a> </li>
+                                  <li> <a href="/category/31"> Микроконтролер, Микропроцессор </a> </li>
+                                  <li> <a href="/category/57"> Wifi, bluetooth, Ethernet Модул </a> </li>
+                                  <li> <a href="/category/32"> Мотор, Мотор Drive </a> </li>
+                                  <li> <a href="/category/15"> Дэлгэц, Лед гэрэл </a> </li>
+                                  <li> <a href="/category/8"> Релей, Холбогч утас, Бусад </a> </li>
+                                  <li> <a href="/category/26"> Туршилтын хавтангууд PCB </a> </li>
+                                  <li> <a href="/category/19"> Транзистор, Диод, Кварц </a> </li>
+                                  <li> <a href="/category/36"> Трансформатор, Tэжээлийн блок, Баттерей </a> </li>
+                                  <li> <a href="/category/17"> Эсэргүүцэл, Конденсатор, Fuse </a> </li>
+                                  <li> <a href="/category/56"> IC </a> </li>
+                                </ul>
+                            </li>
+                          <li>
+                  <a href="/category/11" class="dropdown">Багаж хэрэгсэл</a>
+                              <ul>
+                                  <li> <a href="/category/110"> Бусад төрлийн </a> </li>
+                                  <li> <a href="/category/111"> Probe </a> </li>
+                                  <li> <a href="/category/20"> Хэмжих багаж </a> </li>
+                                </ul>
+                            </li>
+                          <li>
+                  <a href="/category/54" class="dropdown">Электроник DIY </a>
+                              <ul>
+                                  <li> <a href="/category/55"> Бусад </a> </li>
+                                </ul>
+                            </li>
+                          <li>
+                  <a href="/category/59" class="dropdown">Дрон</a>
+                              <ul>
+                                  <li> <a href="/category/81"> POWER PART </a> </li>
+                                  <li> <a href="/category/83"> Дагалдах хэрэгсэл </a> </li>
+                                  <li> <a href="/category/75"> Drones </a> </li>
+                                  <li> <a href="/category/67"> Flight controller </a> </li>
+                                  <li> <a href="/category/68"> Мотор ESC </a> </li>
+                                  <li> <a href="/category/69"> Frame Тэнхлэг, Cэнс </a> </li>
+                                  <li> <a href="/category/70"> Алсын удирдлага </a> </li>
+                                  <li> <a href="/category/71"> Камер, видео дамжуулагч </a> </li>
+                                </ul>
+                            </li>
+                          <li>
+                  <a href="/category/72" class="dropdown">3D Принтер</a>
+                              <ul>
+                                  <li> <a href="/category/77"> 3D Принтер контроллер хавтан </a> </li>
+                                  <li> <a href="/category/78"> 3D Принтер материал </a> </li>
+                                  <li> <a href="/category/79"> 3D Принтер бүтээгдхүүн </a> </li>
+                                  <li> <a href="/category/80"> Сэлбэгүүд </a> </li>
+                                  <li> <a href="/category/76"> 3D Принтерүүд </a> </li>
+                                </ul>
+                            </li>
+                          <li>
+                  <a href="/category/93" class="dropdown">Бүтээлүүд DIY</a>
+                              <ul>
+                                  <li> <a href="/category/94"> Arduino </a> </li>
+                                  <li> <a href="/category/95"> raspberry </a> </li>
+                                  <li> <a href="/category/96"> Analog circuit </a> </li>
+                                </ul>
+                            </li>
+                          <li>
+                  <a href="/category/97" class="dropdown">RC</a>
+                              <ul>
+                                  <li> <a href="/category/99"> Parts </a> </li>
+                                  <li> <a href="/category/98"> ESC </a> </li>
+                                  <li> <a href="/category/107"> CARS </a> </li>
+                                </ul>
+                            </li>
+                          <li>
+                  <a href="/category/100" class="dropdown">PC accessories</a>
+                              <ul>
+                                  <li> <a href="/category/101"> PC - mouse keyboard </a> </li>
+                                  <li> <a href="/category/102"> PC - SSD, SD, Flash pen drive </a> </li>
+                                  <li> <a href="/category/103"> PC - cables, adaptors </a> </li>
+                                  <li> <a href="/category/104"> PC - Accessories </a> </li>
+                                </ul>
+                            </li>
+                          <li>
+                  <a href="/category/105" class="dropdown">MOBILE PHONE ACCESSORIES</a>
+                              <ul>
+                                  <li> <a href="/category/106"> USB CABLE CHARGER </a> </li>
+                                </ul>
+                            </li>
+                          <li>
+                  <a href="/category/108" class="dropdown">Автоматжуулалт</a>
+                              <ul>
+                                  <li> <a href="/category/109"> PLC </a> </li>
+                                </ul>
+                            </li>
+                          <li> <a href="/lesson"> DIY хичээл </a> </li>
+              </ul>
+                    </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="owl-carousel owl-loaded owl-drag">
+                        
+                        
+                      <div class="owl-stage-outer"><div class="owl-stage" style="left: 0px; width: 2280px;"><div class="owl-item active" style="width: 1140px;"><div> <img src="./../html/img/NSRyzsMN26HGjJD2liix0a6TObrqB588ETOV1mSu.jpeg?w=1170&amp;h=300&amp;fit=crop" alt="2"> </div></div><div class="owl-item" style="width: 1140px;"><div> <img src="/img/sliders/RIzZLEDRo5ECDzwcp9i1gFYP9jaLSdZ8nE466RCO.jpeg?w=1170&amp;h=300&amp;fit=crop" alt="1"> </div></div></div></div></div>
+          </div>
+        </div>
+      </div>
+      
+      
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="module">
+      <div class="module-header">
+        <h3>Манай бүтээгдэхүүнээс</h3>
+        <div class="seperator green"></div>
+      </div>
+      <div class="module-content">
+        <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-4 ">
+            <div class="each-product">
+                                  <a href="/category/59/product/2159">
+                          <img src="./../html/img/products/2iXLM94Lb3wr2UuTsAW9bfFzx74IjtbTPAkaJbxy.jpeg?w=270&amp;h=240&amp;fit=crop" alt="Brushless motor 1400kv" class="img-responsive">
+              </a>
+              <div class="seperator green"></div>
+              <h4>Brushless motor 1400kv</h4>
+              <div class="code-price">
+                <div class="row">
+                  <div class="col-sm-7">
+                    Барааны код: 203
+                  </div>
+                  <div class="col-sm-5">
+                    <span class="price pull-right">35000₮</span>
+                  </div>
+                </div>
+              </div>
+              <div class="more">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-5">
+                                    <button type="button" class="basket" onclick="addToCart(2159, 'Brushless motor 1400kv', 1, 35000)">basket</button>
+                                  </div>
+                  <div class="col-sm-8 col-xs-7">
+                                    <a class="btn_more pull-right" href="/category/59/product/2159">Дэлгэрэнгүй</a>
+                                  </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 ">
+            <div class="each-product">
+                                  <a href="/category/54/product/2158">
+                          <img src="./../html/img/products/qgOY58rYLX9xf0P21MoxUlM2eNNbcmWFhIW6kyQP.jpeg?w=270&amp;h=240&amp;fit=crop" alt="propeller diy / сэнс" class="img-responsive">
+              </a>
+              <div class="seperator green"></div>
+              <h4>propeller diy / сэнс</h4>
+              <div class="code-price">
+                <div class="row">
+                  <div class="col-sm-7">
+                    Барааны код: 511
+                  </div>
+                  <div class="col-sm-5">
+                    <span class="price pull-right">6000₮</span>
+                  </div>
+                </div>
+              </div>
+              <div class="more">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-5">
+                                    <button type="button" class="basket" onclick="addToCart(2158, 'propeller diy / сэнс', 1, 6000)">basket</button>
+                                  </div>
+                  <div class="col-sm-8 col-xs-7">
+                                    <a class="btn_more pull-right" href="/category/54/product/2158">Дэлгэрэнгүй</a>
+                                  </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 ">
+            <div class="each-product">
+                                  <a href="/category/54/product/2157">
+                          <img src="./../html/img/products/jYWrcfmLWUu6Pfzr67nkFFlhYZI3a1KN305GrXQ5.jpeg?w=270&amp;h=240&amp;fit=crop" alt="led diy" class="img-responsive">
+              </a>
+              <div class="seperator green"></div>
+              <h4>led diy</h4>
+              <div class="code-price">
+                <div class="row">
+                  <div class="col-sm-7">
+                    Барааны код: 511
+                  </div>
+                  <div class="col-sm-5">
+                    <span class="price pull-right">5000₮</span>
+                  </div>
+                </div>
+              </div>
+              <div class="more">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-5">
+                                    <button type="button" class="basket" onclick="addToCart(2157, 'led diy', 1, 5000)">basket</button>
+                                  </div>
+                  <div class="col-sm-8 col-xs-7">
+                                    <a class="btn_more pull-right" href="/category/54/product/2157">Дэлгэрэнгүй</a>
+                                  </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 last-one">
+            <div class="each-product">
+                                  <a href="/category/54/product/2156">
+                          <img src="./../html/img/products/Zgk7xheJbCCBqU4g2z0cBsBBXpb18NahFvAqHSKZ.jpeg?w=270&amp;h=240&amp;fit=crop" alt="car /машин" class="img-responsive">
+              </a>
+              <div class="seperator green"></div>
+              <h4>car /машин</h4>
+              <div class="code-price">
+                <div class="row">
+                  <div class="col-sm-7">
+                    Барааны код: 511
+                  </div>
+                  <div class="col-sm-5">
+                    <span class="price pull-right">15000₮</span>
+                  </div>
+                </div>
+              </div>
+              <div class="more">
+                <div class="row">
+                  <div class="col-sm-4 col-xs-5">
+                                    <button type="button" class="basket" onclick="addToCart(2156, 'car /машин', 1, 15000)">basket</button>
+                                  </div>
+                  <div class="col-sm-8 col-xs-7">
+                                    <a class="btn_more pull-right" href="/category/54/product/2156">Дэлгэрэнгүй</a>
+                                  </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+              </div>
+      </div>
+    </div>
+          </div>
+        </div>
+      </div>
+
+    
+</body>
+</html>

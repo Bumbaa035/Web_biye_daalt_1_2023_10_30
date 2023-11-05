@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="csrf-token" content="Rhal4vqjWWCAcI9SOVpwF2AthCxNZdYaaBcsxHQU">
+    <title>Elec.mn</title>
+    <meta name="ROBOTS" content=" NOINDEX, FOLLOW ">
+    <meta name="keywords" content="электроник, элек, arduino, raspberry, sensor, elec, resistor, эсэргүүцэл, Чип, Робокон, Elec">
+    <meta name="description" content="Elec.mn сайт нь электрон бараа, электроникийн сэлбэгүүд,  электроникийн хавтангууд болон хагас дамжуулагч, эсэргүүцэл, микроконролерийн жижиглэн худалдаа хүргэлт үйлчилгээг үзүүлдэг вэбсайт юм. Электроник сонирхогч хүн бүртэй бид хамтран ажиллахад хэзээд таатай байх болно.">
+    <meta name="theme-color" content="#97c024"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      <!-- Social Open Graph-->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@Elec.mn" />
+  <meta name="twitter:creator" content="@Elec" />
+  <meta property="og:url"           content="https://elec.mn" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Elec.mn" />
+  <meta property="og:description"   content="Elec.mn сайт нь электрон бараа, электроникийн сэлбэгүүд,  электроникийн хавтангууд болон хагас дамжуулагч, эсэргүүцэл, микроконролерийн жижиглэн худалдаа хүргэлт үйлчилгээг үзүүлдэг вэбсайт юм. Электроник сонирхогч хүн бүртэй бид хамтран ажиллахад хэзээд таатай байх болно." />
+    <link rel="stylesheet" href="./../style/style.css">
+      </head>
+  <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v8.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=install_email
+      page_id="1109348972431149">
+    </div>
+
+
+    <div class="header-container">
+  <div class="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-8 col-sm-8 col-xs-12">
+          <ul class="social">
+            <li> <a href="https://www.facebook.com/ezko.elec" class="facebook" target="_blank">facebook</a> </li>
+            <li> <a href="https://twitter.com/Ezenbold?s=07" class="twitter" target="_blank">twitter</a> </li>
+            <li> <a href="https://www.youtube.com/user/ezo891106" class="youtube" target="_blank">youtube</a> </li>
+          </ul>
+          <div class="text"> Peace mall дэлгүүр 1 давхар 101 тоот </div>
+          <div class="text"> Хүргэлтийн үйлчилгээ таны цагийг хэмнэнэ </div>
+        </div>
+        <div class="col-lg-5 col-md-4 col-sm-4 col-xs-12">
+                 
+          <ul class="client-nav pull-right">
+            <li style="padding-right: 10px">
+              <a href="/newproducts" style="color:white">Бүтээгдэхүүн <span style="color:#e30b5d; font-size: 10px; font-weight:bold">New</span></a>
+            </li>
+                        <li> <a href="/client/login" class="login">Нэвтрэх</a> </li>
+                        <li>
+              <a href="/client/checkout" class="basket">
+                <span id="basketProducts">0</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Logo and Filter -->
+  <div class="filter-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <form method="GET" action="/search">
+            <div class="search-section">
+              <input type="text" name="val" value="" placeholder="Хайх бүтээгдэхүүний нэрийг бичнэ үү">
+              <button type="submit">S</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <a href="/" class="logo">
+            <img src="/img/logo.png" alt="Elec Logo" class="img-responsive">
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="contact-information">
+            <a href="mailto:electronics@elec.mn" class="email">electronics@elec.mn</a>
+            <a href="#" class="phone">77372929</a>
+          </div>
+          <div class="topBtns">
+            <a href="/pcb-order" class="pcb-order-btn">PCB Хавтан Захиалга</a>
+            <a href="/feedback" class="feedback-btn">Санал хүсэлт</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="sidenav" id="left-navigation">
+  <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">×</a>
+    <ul class="navigation">
+            <li>
+      <a href="/category/9" class="">Электроникийн сэлбэг</a>
+            <ul>
+                        <li> <a href="/category/14" class=""> Ардуйно, Raspberry, Модул </a> </li>
+                        <li> <a href="/category/18" class=""> Мэдрэгч сенсор </a> </li>
+                        <li> <a href="/category/31" class=""> Микроконтролер, Микропроцессор </a> </li>
+                        <li> <a href="/category/57" class=""> Wifi, bluetooth, Ethernet Модул </a> </li>
+                        <li> <a href="/category/32" class=""> Мотор, Мотор Drive </a> </li>
+                        <li> <a href="/category/15" class=""> Дэлгэц, Лед гэрэл </a> </li>
+                        <li> <a href="/category/8" class=""> Релей, Холбогч утас, Бусад </a> </li>
+                        <li> <a href="/category/26" class=""> Туршилтын хавтангууд PCB </a> </li>
+                        <li> <a href="/category/19" class=""> Транзистор, Диод, Кварц </a> </li>
+                        <li> <a href="/category/36" class=""> Трансформатор, Tэжээлийн блок, Баттерей </a> </li>
+                        <li> <a href="/category/17" class=""> Эсэргүүцэл, Конденсатор, Fuse </a> </li>
+                        <li> <a href="/category/56" class=""> IC </a> </li>
+              </ul>
+          </li>
+            <li>
+      <a href="/category/11" class="">Багаж хэрэгсэл</a>
+            <ul>
+                        <li> <a href="/category/110" class=""> Бусад төрлийн </a> </li>
+                        <li> <a href="/category/111" class=""> Probe </a> </li>
+                        <li> <a href="/category/20" class=""> Хэмжих багаж </a> </li>
+              </ul>
+          </li>
+            <li>
+      <a href="/category/54" class="">Электроник DIY </a>
+            <ul>
+                        <li> <a href="/category/55" class=""> Бусад </a> </li>
+              </ul>
+          </li>
+            <li>
+      <a href="/category/59" class="">Дрон</a>
+            <ul>
+                        <li> <a href="/category/81" class=""> POWER PART </a> </li>
+                        <li> <a href="/category/83" class=""> Дагалдах хэрэгсэл </a> </li>
+                        <li> <a href="/category/75" class=""> Drones </a> </li>
+                        <li> <a href="/category/67" class=""> Flight controller </a> </li>
+                        <li> <a href="/category/68" class=""> Мотор ESC </a> </li>
+                        <li> <a href="/category/69" class=""> Frame Тэнхлэг, Cэнс </a> </li>
+                        <li> <a href="/category/70" class=""> Алсын удирдлага </a> </li>
+                        <li> <a href="/category/71" class=""> Камер, видео дамжуулагч </a> </li>
+              </ul>
+          </li>
+            <li>
+      <a href="/category/72" class="">3D Принтер</a>
+            <ul>
+                        <li> <a href="/category/77" class=""> 3D Принтер контроллер хавтан </a> </li>
+                        <li> <a href="/category/78" class=""> 3D Принтер материал </a> </li>
+                        <li> <a href="/category/79" class=""> 3D Принтер бүтээгдхүүн </a> </li>
+                        <li> <a href="/category/80" class=""> Сэлбэгүүд </a> </li>
+                        <li> <a href="/category/76" class=""> 3D Принтерүүд </a> </li>
+              </ul>
+          </li>
+            <li>
+      <a href="/category/93" class="">Бүтээлүүд DIY</a>
+            <ul>
+                        <li> <a href="/category/94" class=""> Arduino </a> </li>
+                        <li> <a href="/category/95" class=""> raspberry </a> </li>
+                        <li> <a href="/category/96" class=""> Analog circuit </a> </li>
+              </ul>
+          </li>
+            <li>
+      <a href="/category/97" class="">RC</a>
+            <ul>
+                        <li> <a href="/category/99" class=""> Parts </a> </li>
+                        <li> <a href="/category/98" class=""> ESC </a> </li>
+                        <li> <a href="/category/107" class=""> CARS </a> </li>
+              </ul>
+          </li>
+            <li>
+      <a href="/category/100" class="">PC accessories</a>
+            <ul>
+                        <li> <a href="/category/101" class=""> PC - mouse keyboard </a> </li>
+                        <li> <a href="/category/102" class=""> PC - SSD, SD, Flash pen drive </a> </li>
+                        <li> <a href="/category/103" class=""> PC - cables, adaptors </a> </li>
+                        <li> <a href="/category/104" class=""> PC - Accessories </a> </li>
+              </ul>
+          </li>
+            <li>
+      <a href="/category/105" class="">MOBILE PHONE ACCESSORIES</a>
+            <ul>
+                        <li> <a href="/category/106" class=""> USB CABLE CHARGER </a> </li>
+              </ul>
+          </li>
+            <li>
+      <a href="/category/108" class="">Автоматжуулалт</a>
+            <ul>
+                        <li> <a href="/category/109" class=""> PLC </a> </li>
+              </ul>
+          </li>
+        <li class="lastOne"> <a href="/lesson"> DIY хичээл </a> </li>
+  </ul>
+  </div>
+<a href="javascript:void(0)" class="navBtn" id="menuBtn" onclick="openNav()">
+  <i class="fas fa-bars fa-lg"></i>
+</a>
+<div id="navigation-cover"></div>
+<div class="navigation-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+                <ul class="navigation">
+                    <li>
+            <a href="/category/9" class="dropdown">Электроникийн сэлбэг</a>
+                        <ul>
+                            <li> <a href="/category/14"> Ардуйно, Raspberry, Модул </a> </li>
+                            <li> <a href="/category/18"> Мэдрэгч сенсор </a> </li>
+                            <li> <a href="/category/31"> Микроконтролер, Микропроцессор </a> </li>
+                            <li> <a href="/category/57"> Wifi, bluetooth, Ethernet Модул </a> </li>
+                            <li> <a href="/category/32"> Мотор, Мотор Drive </a> </li>
+                            <li> <a href="/category/15"> Дэлгэц, Лед гэрэл </a> </li>
+                            <li> <a href="/category/8"> Релей, Холбогч утас, Бусад </a> </li>
+                            <li> <a href="/category/26"> Туршилтын хавтангууд PCB </a> </li>
+                            <li> <a href="/category/19"> Транзистор, Диод, Кварц </a> </li>
+                            <li> <a href="/category/36"> Трансформатор, Tэжээлийн блок, Баттерей </a> </li>
+                            <li> <a href="/category/17"> Эсэргүүцэл, Конденсатор, Fuse </a> </li>
+                            <li> <a href="/category/56"> IC </a> </li>
+                          </ul>
+                      </li>
+                    <li>
+            <a href="/category/11" class="dropdown">Багаж хэрэгсэл</a>
+                        <ul>
+                            <li> <a href="/category/110"> Бусад төрлийн </a> </li>
+                            <li> <a href="/category/111"> Probe </a> </li>
+                            <li> <a href="/category/20"> Хэмжих багаж </a> </li>
+                          </ul>
+                      </li>
+                    <li>
+            <a href="/category/54" class="dropdown">Электроник DIY </a>
+                        <ul>
+                            <li> <a href="/category/55"> Бусад </a> </li>
+                          </ul>
+                      </li>
+                    <li>
+            <a href="/category/59" class="dropdown">Дрон</a>
+                        <ul>
+                            <li> <a href="/category/81"> POWER PART </a> </li>
+                            <li> <a href="/category/83"> Дагалдах хэрэгсэл </a> </li>
+                            <li> <a href="/category/75"> Drones </a> </li>
+                            <li> <a href="/category/67"> Flight controller </a> </li>
+                            <li> <a href="/category/68"> Мотор ESC </a> </li>
+                            <li> <a href="/category/69"> Frame Тэнхлэг, Cэнс </a> </li>
+                            <li> <a href="/category/70"> Алсын удирдлага </a> </li>
+                            <li> <a href="/category/71"> Камер, видео дамжуулагч </a> </li>
+                          </ul>
+                      </li>
+                    <li>
+            <a href="/category/72" class="dropdown">3D Принтер</a>
+                        <ul>
+                            <li> <a href="/category/77"> 3D Принтер контроллер хавтан </a> </li>
+                            <li> <a href="/category/78"> 3D Принтер материал </a> </li>
+                            <li> <a href="/category/79"> 3D Принтер бүтээгдхүүн </a> </li>
+                            <li> <a href="/category/80"> Сэлбэгүүд </a> </li>
+                            <li> <a href="/category/76"> 3D Принтерүүд </a> </li>
+                          </ul>
+                      </li>
+                    <li>
+            <a href="/category/93" class="dropdown">Бүтээлүүд DIY</a>
+                        <ul>
+                            <li> <a href="/category/94"> Arduino </a> </li>
+                            <li> <a href="/category/95"> raspberry </a> </li>
+                            <li> <a href="/category/96"> Analog circuit </a> </li>
+                          </ul>
+                      </li>
+                    <li>
+            <a href="/category/97" class="dropdown">RC</a>
+                        <ul>
+                            <li> <a href="/category/99"> Parts </a> </li>
+                            <li> <a href="/category/98"> ESC </a> </li>
+                            <li> <a href="/category/107"> CARS </a> </li>
+                          </ul>
+                      </li>
+                    <li>
+            <a href="/category/100" class="dropdown">PC accessories</a>
+                        <ul>
+                            <li> <a href="/category/101"> PC - mouse keyboard </a> </li>
+                            <li> <a href="/category/102"> PC - SSD, SD, Flash pen drive </a> </li>
+                            <li> <a href="/category/103"> PC - cables, adaptors </a> </li>
+                            <li> <a href="/category/104"> PC - Accessories </a> </li>
+                          </ul>
+                      </li>
+                    <li>
+            <a href="/category/105" class="dropdown">MOBILE PHONE ACCESSORIES</a>
+                        <ul>
+                            <li> <a href="/category/106"> USB CABLE CHARGER </a> </li>
+                          </ul>
+                      </li>
+                    <li>
+            <a href="/category/108" class="dropdown">Автоматжуулалт</a>
+                        <ul>
+                            <li> <a href="/category/109"> PLC </a> </li>
+                          </ul>
+                      </li>
+                    <li> <a href="/lesson"> DIY хичээл </a> </li>
+        </ul>
+              </div>
+    </div>
+  </div>
+</div>
+    <a id="cityexpressbtn">
+  <img src="./img/cityexpress.png" alt="Cityepress Cargo">
+</a>
+<div id="cityexpressform">
+  <div style="font-size: 12px; line-height: 13px; padding-bottom: 10px;">
+    Таны хайж буй бүтээгдэхүүнүүд манай сайтад байхгүй бол доорх хайлтыг ашиглан taobao-с шууд хайлт хийнэ үү.
+  </div>
+  <form action="https://cityexpress.mn/product" method="get" target="_blank">
+    <input type="text" name="q" placeholder="Хайх утгаа оруулна уу.">
+    <button type="submit">Хайх</button>
+    <button id="cityclosebtn" type="button">Хаах</button>
+  </form>
+</div>
+      <div class="slider-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="owl-carousel">
+                    <div> <img src="/img/sliders/NSRyzsMN26HGjJD2liix0a6TObrqB588ETOV1mSu.jpeg?w=1170&h=300&fit=crop" alt="2"> </div>
+                    <div> <img src="/img/sliders/RIzZLEDRo5ECDzwcp9i1gFYP9jaLSdZ8nE466RCO.jpeg?w=1170&h=300&fit=crop" alt="1"> </div>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="clear"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="module">
+  <div class="module-header">
+    <h3>Манай бүтээгдэхүүнээс</h3>
+    <div class="seperator green"></div>
+  </div>
+  <div class="module-content">
+    <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-4 ">
+        <div class="each-product">
+                              <a href="/category/54/product/2158">
+                      <img src="/img/products/qgOY58rYLX9xf0P21MoxUlM2eNNbcmWFhIW6kyQP.jpeg?w=270&h=240&fit=crop" alt="propeller diy / сэнс" class="img-responsive">
+          </a>
+          <div class="seperator green"></div>
+          <h4>propeller diy / сэнс</h4>
+          <div class="code-price">
+            <div class="row">
+              <div class="col-sm-7">
+                Барааны код: 511
+              </div>
+              <div class="col-sm-5">
+                <span class="price pull-right">6000₮</span>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <div class="row">
+              <div class="col-sm-4 col-xs-5">
+                                <button
+                  type="button"
+                  class="basket"
+                  onclick="addToCart(2158, 'propeller diy / сэнс', 1, 6000)">basket</button>
+                              </div>
+              <div class="col-sm-8 col-xs-7">
+                                <a class="btn_more pull-right" href="/category/54/product/2158">Дэлгэрэнгүй</a>
+                              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 ">
+        <div class="each-product">
+                              <a href="/category/54/product/2157">
+                      <img src="/img/products/jYWrcfmLWUu6Pfzr67nkFFlhYZI3a1KN305GrXQ5.jpeg?w=270&h=240&fit=crop" alt="led diy" class="img-responsive">
+          </a>
+          <div class="seperator green"></div>
+          <h4>led diy</h4>
+          <div class="code-price">
+            <div class="row">
+              <div class="col-sm-7">
+                Барааны код: 511
+              </div>
+              <div class="col-sm-5">
+                <span class="price pull-right">5000₮</span>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <div class="row">
+              <div class="col-sm-4 col-xs-5">
+                                <button
+                  type="button"
+                  class="basket"
+                  onclick="addToCart(2157, 'led diy', 1, 5000)">basket</button>
+                              </div>
+              <div class="col-sm-8 col-xs-7">
+                                <a class="btn_more pull-right" href="/category/54/product/2157">Дэлгэрэнгүй</a>
+                              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 ">
+        <div class="each-product">
+                              <a href="/category/54/product/2156">
+                      <img src="/img/products/Zgk7xheJbCCBqU4g2z0cBsBBXpb18NahFvAqHSKZ.jpeg?w=270&h=240&fit=crop" alt="car /машин" class="img-responsive">
+          </a>
+          <div class="seperator green"></div>
+          <h4>car /машин</h4>
+          <div class="code-price">
+            <div class="row">
+              <div class="col-sm-7">
+                Барааны код: 511
+              </div>
+              <div class="col-sm-5">
+                <span class="price pull-right">15000₮</span>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <div class="row">
+              <div class="col-sm-4 col-xs-5">
+                                <button
+                  type="button"
+                  class="basket"
+                  onclick="addToCart(2156, 'car /машин', 1, 15000)">basket</button>
+                              </div>
+              <div class="col-sm-8 col-xs-7">
+                                <a class="btn_more pull-right" href="/category/54/product/2156">Дэлгэрэнгүй</a>
+                              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 last-one">
+        <div class="each-product">
+                              <a href="/category/9/product/2155">
+                      <img src="/img/products/tXLtDwDWxiwzzzM4a4PApGair1UQR2ST3PFb8caf.jpeg?w=270&h=240&fit=crop" alt="magnet / соронз 48*42*11*8мм" class="img-responsive">
+          </a>
+          <div class="seperator green"></div>
+          <h4>magnet / соронз 48*42*11*8мм</h4>
+          <div class="code-price">
+            <div class="row">
+              <div class="col-sm-7">
+                Барааны код: 436
+              </div>
+              <div class="col-sm-5">
+                <span class="price pull-right">3000₮</span>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <div class="row">
+              <div class="col-sm-4 col-xs-5">
+                                <button
+                  type="button"
+                  class="basket"
+                  onclick="addToCart(2155, 'magnet / соронз 48*42*11*8мм', 1, 3000)">basket</button>
+                              </div>
+              <div class="col-sm-8 col-xs-7">
+                                <a class="btn_more pull-right" href="/category/9/product/2155">Дэлгэрэнгүй</a>
+                              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+          </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+
+      <footer>
+  <div class="container">
+    <div class="col-lg-2 col-md-2 col-sm-3">
+      <a href="/" class="flogo">
+        <img src="/img/logo_white.png" alt="Elec Logo" class="img-responsive">
+      </a>
+    </div>
+    <div class="col-lg-6 col-md-7 col-sm-6">
+            <ul class="links">
+                <li> <a href="/page/3">Бидний тухай</a> </li>
+                <li> <a href="/page/4">Холбоо барих</a> </li>
+                <li> <a href="/page/5">Тусламж</a> </li>
+                <li> <a href="/page/6">Хичээл оруулах заавар</a> </li>
+              </ul>
+          </div>
+    <div class="col-lg-3 col-lg-offset-1 col-md-3 col-sm-3">
+      <div class="row">
+        <div class="col-sm-6">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.elecapp"
+            target="_blank">
+            <img src="/img/playstore.png" alt="Play Store" class="img-responsive" style="max-width: 120px">
+          </a>
+        </div>
+        <div class="col-sm-6">
+          <a
+            href="https://itunes.apple.com/us/app/elec-mn/id1370779530?ls=1&mt=8"
+            target="_blank">
+            <img src="/img/appstore.png" alt="App Store" class="img-responsive" style="max-width: 120px">
+          </a>
+        </div>
+      </div>
+      <div class="rt_content pull-right">
+        <div> Зохиогчийн эрх хуулиар хамгаалагдсан. </div>
+        <div> Designed and Developed by <a href="http://tbsm.mn" target="_blank">TBSM LLC</a></div>
+      </div>
+    </div>
+  </div>
+</footer>
+    <div class="loading" id="basketAlert">
+      <div class="loading-content">
+        <img src="/img/cartBig.png" alt="Cart">
+        <p>Сагсанд амжилттай орлоо</p>
+      </div>
+    </div>
+    <!--
+    <div class="loader">
+      <div class="loader_wrapper">
+        <div class="spinner"></div>
+      </div>
+    </div>
+  -->
+
+    <script src="/js/app.js?id=7ddc812d795f21286002d34901ad0e89" charset="utf-8"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+    <!--Start of Zopim Live Chat Script
+    <script type="text/javascript">
+    window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+    d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+    _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+    $.src="//v2.zopim.com/?3ZzrLRhYCNCuR4ZOxNheRRp26WjF0EFb";z.t=+new Date;$.
+    type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+    </script>
+    <!End of Zopim Live Chat Script-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-75892314-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
